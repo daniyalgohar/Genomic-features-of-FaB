@@ -14,6 +14,6 @@ uname -a
 
 source activate buscoQC
 
-busco -i /gpfs/space/home/gohar/BUSCO_QC/sample_data/2757320534.fna -l bacteria_odb10 -o 534qc -m genome
+busco -i /path/to/dir/gohar/BUSCO_QC/sample_data/2757320534.fna -l bacteria_odb10 -o 534qc -m genome
 
 
