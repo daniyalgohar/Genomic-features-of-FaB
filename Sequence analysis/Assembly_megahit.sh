@@ -17,4 +17,4 @@
 uname -a
 module load python-3.7.1
 module --ignore-cache load megahit
-megahit --k-min 15 --k-max 255 --k-step 2 -1 /gpfs/space/home/barabi/Daniyal/LM37/LM37_forward_paired.fq -2 /gpfs/space/home/barabi/Daniyal/LM37/LM37_reverse_paired.fq -r /gpfs/space/home/barabi/Daniyal/LM37/LM37_forward_unpaired.fq -r /gpfs/space/home/barabi/Daniyal/LM37/LM37_reverse_unpaired.fq -o /gpfs/space/home/barabi/Daniyal/LM37/LM37_megahit -t 16
+megahit --k-min 15 --k-max 255 --k-step 2 -1 /path/to/dir/barabi/Daniyal/LM37/LM37_forward_paired.fq -2 /path/to/dir/barabi/Daniyal/LM37/LM37_reverse_paired.fq -r /path/to/dir/barabi/Daniyal/LM37/LM37_forward_unpaired.fq -r /path/to/dir/barabi/Daniyal/LM37/LM37_reverse_unpaired.fq -o /path/to/dir/Daniyal/LM37/LM37_megahit -t 16
