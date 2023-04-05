@@ -17,11 +17,11 @@ export JOB_CACHE=/tmp/$SLURM_JOB_ID
 
 mkdir $JOB_CACHE
 chmod 700 $JOB_CACHE
-rsync -a /gpfs/space/home/gohar/pyANI/Assemblies_all/ $JOB_CACHE #Repeat for all the larger datasets
+rsync -a /path/to/directory/Assemblies_all/ $JOB_CACHE #Repeat for all the larger datasets
 
 module --ignore-cache load python/3.6.3/virtenv
 source activate pyani_env
-mkdir /gpfs/space/home/gohar/pyANI/ANI_opti_output/$SLURM_JOB_ID 
-average_nucleotide_identity.py -i $JOB_CACHE -o /gpfs/space/home/gohar/pyANI/ANI_output_1328/$SLURM_JOB_ID -f --noclobber -m ANIb -g --gformat png,pdf,eps
+mkdir /path/to/directory/pyANI/ANI_opti_output/$SLURM_JOB_ID 
+average_nucleotide_identity.py -i $JOB_CACHE -o /path/to/directory/pyANI/ANI_output_1328/$SLURM_JOB_ID -f --noclobber -m ANIb -g --gformat png,pdf,eps
 
 rm -rf $JOB_CACHE  #Clean data after run
