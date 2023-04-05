@@ -15,5 +15,5 @@ uname -a
 
 source activate checkm
 
-checkm lineage_wf /gpfs/space/home/gohar/Metagenome/Filtered_Assemblies/ -x .fa /gpfs/space/home/gohar/CheckM/MIB_results/ -t 32
+checkm lineage_wf /path/to/directory/gohar/Metagenome/Filtered_Assemblies/ -x .fa /path/to/directory/gohar/CheckM/MIB_results/ -t 32
 
