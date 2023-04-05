@@ -12,4 +12,4 @@
 #SBATCH --mail-type=FAIL
 module load parallel
 
-ls *.faa | parallel -a - /gpfs/space/home/gohar/RPS_Blast/ncbi-blast-2.12.0+/bin/rpsblast -query {} -db /gpfs/space/home/gohar/RPS_Blast/ncbi-blast-2.12.0+/Cog_db/Cog -evalue 0.01 -qcov_hsp_perc 70 -outfmt 6 -out {.}.tsv -num_threads 8
+ls *.faa | parallel -a - /path/to/directory/gohar/RPS_Blast/ncbi-blast-2.12.0+/bin/rpsblast -query {} -db /path/to/directory/gohar/RPS_Blast/ncbi-blast-2.12.0+/Cog_db/Cog -evalue 0.01 -qcov_hsp_perc 70 -outfmt 6 -out {.}.tsv -num_threads 8
