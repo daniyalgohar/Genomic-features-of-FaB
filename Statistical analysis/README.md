@@ -1,3 +1,8 @@
+# Statistical analysis 
+This repository includes scripts for few important statistical methods utilized in our study. Scripts for basic statistical methods and visualization are not included but can be made available upon request to the corresponding author, Daniyal Gohar.
+
+All of the scripts were developed using the R programming language, using the latest available versions at the time of analysis. There were no apparent conflicts between the script versions used and the software versions employed.
+
 ## Gene enrichment patterns across habitats
 ### PhyloLM
 The "Gene enrichment analysis.R" script is an R script designed to analyze gene gene enrichment patterns. It takes as input a gene count matrix,
