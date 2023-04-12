@@ -2,9 +2,9 @@
 # Odds ratio
 
 
-kegg_table2=cbind(data.frame(taxon_oid=rownames(RPS_cogs_table)),RPS_cogs_table)
+table2=cbind(data.frame(taxon_oid=rownames(RPS_cogs_table)),RPS_cogs_table)
 
-merged_df <- merge(Metadata_F[,c(2,11)],kegg_table2,  by= "taxon_oid")
+merged_df <- merge(Metadata_F[,c(2,11)],table2,  by= "taxon_oid")
 # Change matrix to presence absence data
 metacols=merged_df %>% mutate(Aquatic = ifelse(Ecosystem.Category == "Aquatic", 1, 0), 
                               Fungi = ifelse(Ecosystem.Category == "Fungi", 1, 0),
