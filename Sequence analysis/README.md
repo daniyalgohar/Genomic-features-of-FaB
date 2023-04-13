@@ -15,7 +15,7 @@ Trimmomtic
 "Average nucleotide identity_pyANI.sh"
 
 ### Annotation
-Initially, we utilized the Eggnog pipeline to annotate the 51 isolates in our study. However, to ensure a homogeneous method of genome annotation, we subsequently employed DOE-JGI Microbial Genome Annotation Pipeline (MGAP) pipeline for annotating all of the genomes which is integrated in JGI/IMG.
+Initially, we utilized the Eggnog pipeline to annotate the 51 isolates in our study. However, to ensure a homogeneous method of genome annotation, we subsequently employed DOE-JGI Microbial Genome Annotation Pipeline (MGAP) pipeline,which is integrated in JGI/IMG, for annotating all of the genomes.
 
 "download_eggnog_db.sh"
 
