@@ -7,9 +7,7 @@
 #SBATCH --ntasks=64
 #The maximum walltime of the job is 7 days
 #SBATCH -t 7-00:00:00
-#SBATCH --mail-user=daniyal.gohar@ut.ee
-#SBATCH --mail-type=END
-#SBATCH --mail-type=FAIL
+
 uname -a
 
 export OPENBLAS_NUM_THREADS=1
