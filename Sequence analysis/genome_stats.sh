@@ -39,7 +39,7 @@ for input_file in "$input_directory"/*.fasta; do
     fi
    
     # Append the result to the output file
-    echo -e "$genome_id\t$num_genes\t$genome_size\t$genome_size_mb\t$gc_content\t$gc_percentage" >> "$output_file"
+    echo -e "$genome_id\t$num_genes\t$genome_size\t$genome_size_mb\t$gc_percentage" >> "$output_file"
 
     # Remove the temporary Prodigal output file
     rm "$prodigal_output" 
