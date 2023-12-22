@@ -6,9 +6,7 @@
 #SBATCH --mem=200GB
 #The maximum walltime of the job is 7 days
 #SBATCH -t 170:00:00
-#SBATCH --mail-user=daniyal.gohar@ut.ee
-#SBATCH --mail-type=END
-#SBATCH --mail-type=FAIL
+
 #SBATCH --ntasks=64
 uname -a
 
